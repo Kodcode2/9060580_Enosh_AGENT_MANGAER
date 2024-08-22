@@ -11,7 +11,7 @@ namespace AgentsRest.Controllers
     [ApiController]
     public class AgentController(IAgentService agentService) : ControllerBase
     {
-        [HttpPost("CreateAgent")]
+        [HttpPost("targets")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> Create([FromBody] AgentDto agentDto)
@@ -28,12 +28,27 @@ namespace AgentsRest.Controllers
             
         }
 
-
-
-        [HttpGet("AllAgent")]
+        [HttpGet("targets")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public  async Task<ActionResult> GetAllAgent() =>
             Ok(await agentService.GetAllAgentAsync());
+
+        [HttpPut("targets/{id}/pin")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> UpdateLocationAgent( LocationDto locationDto,int id)
+        {
+            try
+            {
+                await agentService.UpdateLocationAgentAsync(locationDto , id);
+                return Created("new user", locationDto);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }

@@ -7,5 +7,6 @@ namespace AgentsRest.Service
     {
         Task<List<AgentModel>> GetAllAgentAsync();
         Task<AgentModel> CreateNewAgentAsync(AgentDto agentDto);
+        Task<AgentModel> UpdateLocationAgentAsync(LocationDto locationDto ,int id);
     }
 }

@@ -30,7 +30,17 @@ namespace AgentsRest.Service
         // מחזיר את כל הסוכנים מהמאגר נתונים
         public async Task<List<AgentModel>> GetAllAgentAsync() =>
             await dbContext.Agents.ToListAsync();
-        
-        
+        // עדכון מקום של הסוכן
+        public async Task<AgentModel> UpdateLocationAgentAsync(LocationDto locationDto, int id)
+        {
+            var agentModel = await dbContext.Agents.FirstOrDefaultAsync(x => x.Id == id);
+            if (agentModel == null) { throw new Exception("not find"); }
+            
+            agentModel.x = locationDto.x;
+            agentModel.y = locationDto.y;
+
+            await dbContext.SaveChangesAsync();
+            return agentModel;
+        }
     }
 }
