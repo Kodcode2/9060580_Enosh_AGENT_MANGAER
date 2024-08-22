@@ -120,7 +120,6 @@ C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\AgentsRest.csproj.CoreCompileInputs.cache
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\AgentsRest.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\AgentsRest.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\AgentsRest.sourcelink.json
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\staticwebassets\msbuild.AgentsRest.Microsoft.AspNetCore.StaticWebAssets.props

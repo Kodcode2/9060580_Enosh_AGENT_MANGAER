@@ -55,7 +55,7 @@ namespace AgentsRest.Service
             agentModel.y = locationDto.y;
 
             await dbContext.SaveChangesAsync();
-            missionService.CreateMissionByAgent(agentModel);
+            missionService.CreateMissionByAgentAsync(agentModel);
             return agentModel;
         }
 
@@ -72,8 +72,8 @@ namespace AgentsRest.Service
             agentModel.x += x;
             agentModel.y += y;
             await dbContext.SaveChangesAsync();
-            missionService.CreateMissionByAgent(agentModel);
-            missionService.IfMissionIsRrelevant();
+            missionService.CreateMissionByAgentAsync(agentModel);
+            missionService.IfMissionIsRrelevantAsync();
             return agentModel;
 
         }

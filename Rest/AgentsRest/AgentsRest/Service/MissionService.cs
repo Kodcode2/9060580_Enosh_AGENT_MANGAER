@@ -9,24 +9,34 @@ namespace AgentsRest.Service
 {
     public class MissionService(IDbContextFactory<ApplicationDbContext> dbContextFactory) : IMissionService
     {
-       
+        // הפעל משימה
+        public async Task<MissionModel> assignToAMissionAsync(int id)
+        {
+            var dbContext = await dbContextFactory.CreateDbContextAsync();
+            MissionModel? missionModel = dbContext.Missions.Find(id);
+            if (missionModel == null) { throw new Exception($"not find Mission by id {id}"); }
+            missionModel.StatusMission = StatusMission.assignToAMission;
+            await dbContext.SaveChangesAsync();
+            return missionModel;
+        }
+
         // בדיקה האם יש אופיצה למשימה כשסוכן זז
-        public async void CreateMissionByAgent(AgentModel agentModel)
+        public async void CreateMissionByAgentAsync(AgentModel agentModel)
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
             // יצירת רשימה של מטרות חייים
             var targetlive = dbContext.Targets.Where(x => x.StatusTarget == StatusTarget.Live).ToList();
-            
-            
+
+
             foreach (var target in targetlive)
             {
                 int xA = agentModel.x;
                 int xT = target.x;
                 int yA = agentModel.y;
                 int yT = target.y;
-                
+
                 // שולח לבדיקה מה המרחק בין המטרה לסוכן
-                var distance = DistanceCalculation(xA, yA,xT,yT);
+                var distance = DistanceCalculation(xA, yA, xT, yT);
 
                 // מביא את כל המשימות ש המטרה נמצאת בהם
                 var targetInMission = dbContext.Missions.Where(x => x.TargetId == target.Id).ToList();
@@ -48,10 +58,10 @@ namespace AgentsRest.Service
                     await dbContext.SaveChangesAsync();
                 }
             }
-            
+
         }
         // בדיקה באמצעות המטרה שזזה האם יש סוכן ברדיוס 
-        public async void CreateMissionByTarget(TargetModel targetModel)
+        public async void CreateMissionByTargetAsync(TargetModel targetModel)
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
             // יצירת רשימה של סוכנים רדומים
@@ -88,17 +98,17 @@ namespace AgentsRest.Service
                     await dbContext.SaveChangesAsync();
                 }
             }
-            
+
         }
 
         // מחק משימה עם היא לא רלוונטית
-        public async void IfMissionIsRrelevant()
+        public async void IfMissionIsRrelevantAsync()
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
             // מביא את כל ההצעות למשימה
             var MissionOffer = dbContext.Missions.Where(x => x.StatusMission == StatusMission.offer).ToList();
 
-            foreach (var mission in MissionOffer) 
+            foreach (var mission in MissionOffer)
             {
                 // ובודק האם זה עדין רלוונטי
                 TargetModel? target = await dbContext.Targets.FindAsync(mission.TargetId);

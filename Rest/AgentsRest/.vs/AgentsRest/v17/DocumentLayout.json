@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\service\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\service\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\date\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\date\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|solutionrelative:agentsrest\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B0F038-BBCE-4200-B21F-3D3A1ACC2B92}|AgentsRest\\AgentsRest.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\rest\\agentsrest\\agentsrest\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,19 +146,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MissionService.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\MissionService.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Service\\MissionService.cs",
               "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\MissionService.cs",
               "RelativeToolTip": "AgentsRest\\Service\\MissionService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAYwF4AAAAuAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:15:51.732Z"
+              "WhenOpened": "2024-08-22T09:15:51.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MissionController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\MissionController.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\MissionController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\MissionController.cs",
+              "RelativeToolTip": "AgentsRest\\Controllers\\MissionController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:13:08.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMissionService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\IMissionService.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Service\\IMissionService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\IMissionService.cs",
+              "RelativeToolTip": "AgentsRest\\Service\\IMissionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:15:16.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\AgentService.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Service\\AgentService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\AgentService.cs",
+              "RelativeToolTip": "AgentsRest\\Service\\AgentService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwC8AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:56:13.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TargetsController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\TargetsController.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\TargetsController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\TargetsController.cs",
+              "RelativeToolTip": "AgentsRest\\Controllers\\TargetsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:31:56.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MissionModel.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Models\\MissionModel.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
+              "RelativeToolTip": "AgentsRest\\Models\\MissionModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:33:58.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TargetService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\TargetService.cs",
+              "RelativeDocumentMoniker": "AgentsRest\\Service\\TargetService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\TargetService.cs",
+              "RelativeToolTip": "AgentsRest\\Service\\TargetService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA6wE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:33:20.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TargetModel.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Models\\TargetModel.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Models\\TargetModel.cs",
@@ -170,44 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IMissionService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\IMissionService.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Service\\IMissionService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\IMissionService.cs",
-              "RelativeToolTip": "AgentsRest\\Service\\IMissionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:15:16.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TargetService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\TargetService.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Service\\TargetService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\TargetService.cs",
-              "RelativeToolTip": "AgentsRest\\Service\\TargetService.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAA6wE0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:33:20.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AgentService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\AgentService.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Service\\AgentService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\AgentService.cs",
-              "RelativeToolTip": "AgentsRest\\Service\\AgentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T13:56:13.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ITargetService.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Service\\ITargetService.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Service\\ITargetService.cs",
@@ -219,19 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TargetsController.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\TargetsController.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\TargetsController.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\TargetsController.cs",
-              "RelativeToolTip": "AgentsRest\\Controllers\\TargetsController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAwwCYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:31:56.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Program.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Program.cs",
@@ -243,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Date\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Date\\ApplicationDbContext.cs",
@@ -255,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Calculations.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Utels\\Calculations.cs",
               "RelativeDocumentMoniker": "AgentsRest\\Utels\\Calculations.cs",
@@ -279,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AgentsRest.http",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\AgentsRest.http",
               "RelativeDocumentMoniker": "AgentsRest\\AgentsRest.http",
@@ -288,30 +318,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-08-22T13:11:38.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MissionController.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\MissionController.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Controllers\\MissionController.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Controllers\\MissionController.cs",
-              "RelativeToolTip": "AgentsRest\\Controllers\\MissionController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:13:08.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MissionModel.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
-              "RelativeDocumentMoniker": "AgentsRest\\Models\\MissionModel.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\Rest\\AgentsRest\\AgentsRest\\Models\\MissionModel.cs",
-              "RelativeToolTip": "AgentsRest\\Models\\MissionModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T11:33:58.274Z"
             },
             {
               "$type": "Document",

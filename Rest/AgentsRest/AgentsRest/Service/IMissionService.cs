@@ -4,9 +4,10 @@ namespace AgentsRest.Service
 {
     public interface IMissionService
     {
-        void CreateMissionByAgent(AgentModel agentModel);
-        void CreateMissionByTarget(TargetModel targetModel);
-        void IfMissionIsRrelevant();
+        void CreateMissionByAgentAsync(AgentModel agentModel);
+        void CreateMissionByTargetAsync(TargetModel targetModel);
+        void IfMissionIsRrelevantAsync();
+        Task<MissionModel> assignToAMissionAsync(int id);
         
     }
 }
