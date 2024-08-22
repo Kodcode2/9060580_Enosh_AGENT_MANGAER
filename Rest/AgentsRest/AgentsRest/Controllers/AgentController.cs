@@ -1,4 +1,5 @@
-﻿using AgentsRest.Models;
+﻿using AgentsRest.Dto;
+using AgentsRest.Models;
 using AgentsRest.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -13,12 +14,12 @@ namespace AgentsRest.Controllers
         [HttpPost("CreateAgent")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> Create([FromBody] AgentModel agentModel)
+        public async Task<ActionResult> Create([FromBody] AgentDto agentDto)
         {
             try
             {
-                await agentService.CreateNewAgentAsync(agentModel);
-                return Created("new user", agentModel);
+                await agentService.CreateNewAgentAsync(agentDto);
+                return Created("new user", agentDto);
             }
             catch (Exception ex)
             {

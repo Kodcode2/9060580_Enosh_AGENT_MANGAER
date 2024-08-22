@@ -18,6 +18,21 @@ namespace AgentsRest.Date
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<AgentModel>()
+                .Property(x => x.StatusAgent)
+                .HasConversion<string>()
+                .IsRequired();
+
+            modelBuilder.Entity<TargetModel>()
+                .Property(x => x.StatusTarget)
+                .HasConversion<string>()
+                .IsRequired();
+
+            modelBuilder.Entity<MissionModel>()
+                .Property(x => x.StatusMission)
+                .HasConversion<string>()
+                .IsRequired();
+
             modelBuilder.Entity<MissionModel>()
                 .HasOne(x => x.Agent)
                 .WithMany()

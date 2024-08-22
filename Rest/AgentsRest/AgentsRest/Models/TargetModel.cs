@@ -10,13 +10,14 @@ namespace AgentsRest.Models
         public string Role { get; set; }
         public int x { get; set; }
         public int y { get; set; }
-        public Status StatusTarget { get; set; }
+        public StatusTarget StatusTarget { get; set; }
         [NotMapped]
         public MissionModel Mission { get; set; }
-        public enum Status
-        {
-            Live,
-            Dead
-        }
+        
+    }
+    public enum StatusTarget
+    {
+        Live,
+        Dead
     }
 }

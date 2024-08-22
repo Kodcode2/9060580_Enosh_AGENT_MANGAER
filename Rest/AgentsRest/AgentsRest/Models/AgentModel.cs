@@ -10,14 +10,15 @@ namespace AgentsRest.Models
         public string NickName { get; set; }
         public int x { get; set; }
         public int y { get; set; }
-        public Status StatusAgent { get; set; }
+        public StatusAgent StatusAgent { get; set; }
         [NotMapped]
         public List<MissionModel> Missions { get; set; } = [];
 
-        public enum Status
-        {
-            IsActive,
-            IsNnotActive
-        }
+        
+    }
+    public enum StatusAgent
+    {
+        IsActive,
+        IsNnotActive
     }
 }

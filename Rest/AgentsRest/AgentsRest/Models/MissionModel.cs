@@ -15,10 +15,10 @@ namespace AgentsRest.Models
         public int TimeRemaining { get; set; }
         public int ActualExecutionTime { get; set; }
 
-        public Status StatusMission { get; set; }
+        public StatusMission StatusMission { get; set; }
      
     }
-        public enum Status
+        public enum StatusMission
         {
             offer,
             assignToAMission,

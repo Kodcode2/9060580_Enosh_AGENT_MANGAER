@@ -5,7 +5,7 @@
 namespace AgentsRest.Migrations
 {
     /// <inheritdoc />
-    public partial class intialCreate : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -20,7 +20,7 @@ namespace AgentsRest.Migrations
                     NickName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     x = table.Column<int>(type: "int", nullable: false),
                     y = table.Column<int>(type: "int", nullable: false),
-                    StatusAgent = table.Column<int>(type: "int", nullable: false)
+                    StatusAgent = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -37,7 +37,7 @@ namespace AgentsRest.Migrations
                     Role = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     x = table.Column<int>(type: "int", nullable: false),
                     y = table.Column<int>(type: "int", nullable: false),
-                    StatusTarget = table.Column<int>(type: "int", nullable: false)
+                    StatusTarget = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -54,7 +54,7 @@ namespace AgentsRest.Migrations
                     TargetId = table.Column<int>(type: "int", nullable: false),
                     TimeRemaining = table.Column<int>(type: "int", nullable: false),
                     ActualExecutionTime = table.Column<int>(type: "int", nullable: false),
-                    StatusMission = table.Column<int>(type: "int", nullable: false)
+                    StatusMission = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
