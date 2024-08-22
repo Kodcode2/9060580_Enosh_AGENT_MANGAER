@@ -73,8 +73,8 @@ namespace AgentsRest.Migrations
                     b.Property<int>("TargetId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TimeRemaining")
-                        .HasColumnType("int");
+                    b.Property<double>("TimeRemaining")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 

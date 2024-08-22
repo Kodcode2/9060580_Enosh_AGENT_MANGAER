@@ -16,7 +16,7 @@ namespace AgentsRest
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddDbContext<ApplicationDbContext>();
+            builder.Services.AddDbContextFactory<ApplicationDbContext>();
             builder.Services.AddSwaggerGen();
             
 
@@ -25,6 +25,7 @@ namespace AgentsRest
 
             builder.Services.AddScoped<IAgentService, AgentService>();
             builder.Services.AddScoped<ITargetService, TargetService>();
+            builder.Services.AddScoped<IMissionService, MissionService>();
 
             builder.Services.AddHttpClient();
 

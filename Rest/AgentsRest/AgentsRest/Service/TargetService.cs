@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AgentsRest.Service
 {
-    public class TargetService(ApplicationDbContext dbContext) : ITargetService
+    public class TargetService(ApplicationDbContext dbContext,IMissionService missionService) : ITargetService
     {
         private readonly Dictionary<string, (int, int)> _direction = new()
         {
@@ -28,9 +28,9 @@ namespace AgentsRest.Service
             }
             TargetModel targetModel = new()
             {
-                Image = targetDto.Image,
+                Image = targetDto.PhotoUrl,
                 Name = targetDto.Name,
-                position = targetDto.position,
+                position = targetDto.Position,
                 x = -1,
                 y = -1,
                 StatusTarget = StatusTarget.Live,
@@ -55,6 +55,7 @@ namespace AgentsRest.Service
             targetModel.y = locationDto.y;
 
             await dbContext.SaveChangesAsync();
+            missionService.CreateMissionByTarget(targetModel);
             return targetModel;
         }
 
@@ -71,6 +72,7 @@ namespace AgentsRest.Service
             targetModel.x += x;
             targetModel.y += y;
             await dbContext.SaveChangesAsync();
+            missionService.CreateMissionByTarget(targetModel);
             return targetModel;
 
         }

@@ -1,47 +1,45 @@
 ﻿using AgentsRest.Dto;
-using AgentsRest.Models;
 using AgentsRest.Service;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgentsRest.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("")]
     [ApiController]
-    public class AgentController(IAgentService agentService) : ControllerBase
+    public class TargetsController(ITargetService targetService) : ControllerBase
     {
-        [HttpPost("agents")]
+        [HttpPost("targets")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> Create([FromBody] AgentDto agentDto)
+        public async Task<ActionResult> CreateTarget([FromBody] TargetDto targetDto)
         {
             try
             {
-                await agentService.CreateNewAgentAsync(agentDto);
-                return Created("new user", agentDto);
+                await targetService.CreateNewTargetAsync(targetDto);
+                return Created("new user", targetDto);
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-            
+
         }
 
-        [HttpGet("agents")]
+        [HttpGet("targets")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public  async Task<ActionResult> GetAllAgent() =>
-            Ok(await agentService.GetAllAgentAsync());
+        public async Task<ActionResult> GetAllTarget() =>
+            Ok(await targetService.GetAllTargetAsync());
 
-        [HttpPut("agents/{id}/pin")]
+        [HttpPut("targets/{id}/pin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> UpdateLocationAgent( LocationDto locationDto,int id)
+        public async Task<ActionResult> UpdateLocationTarget(LocationDto locationDto, int id)
         {
             try
             {
-                await agentService.UpdateLocationAgentAsync(locationDto , id);
+                await targetService.UpdateLocationTargetAsync(locationDto, id);
                 return Created("new user", locationDto);
             }
             catch (Exception ex)
@@ -50,14 +48,14 @@ namespace AgentsRest.Controllers
             }
         }
 
-        [HttpPut("agents/{id}/move")]
+        [HttpPut("targets/{id}/move")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult> moveAgent(DirectionDto directionDto, int id)
+        public async Task<ActionResult> moveTarget(DirectionDto directionDto, int id)
         {
             try
             {
-                await agentService.moveAgentAsync(directionDto, id);
+                await targetService.moveTargetAsync(directionDto, id);
                 return Created("new user", directionDto);
             }
             catch (Exception ex)

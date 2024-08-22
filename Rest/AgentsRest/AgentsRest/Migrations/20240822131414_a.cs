@@ -5,7 +5,7 @@
 namespace AgentsRest.Migrations
 {
     /// <inheritdoc />
-    public partial class ini : Migration
+    public partial class a : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -53,7 +53,7 @@ namespace AgentsRest.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     AgentID = table.Column<int>(type: "int", nullable: false),
                     TargetId = table.Column<int>(type: "int", nullable: false),
-                    TimeRemaining = table.Column<int>(type: "int", nullable: false),
+                    TimeRemaining = table.Column<double>(type: "float", nullable: false),
                     ActualExecutionTime = table.Column<int>(type: "int", nullable: false),
                     StatusMission = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },

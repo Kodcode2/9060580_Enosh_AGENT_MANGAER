@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AgentsRest.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240822085703_ini")]
-    partial class ini
+    [Migration("20240822131414_a")]
+    partial class a
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -76,8 +76,8 @@ namespace AgentsRest.Migrations
                     b.Property<int>("TargetId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TimeRemaining")
-                        .HasColumnType("int");
+                    b.Property<double>("TimeRemaining")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
