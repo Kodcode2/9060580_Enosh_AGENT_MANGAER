@@ -50,5 +50,21 @@ namespace AgentsRest.Controllers
             }
         }
 
+        [HttpPut("targets/{id}/move")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> moveAgent(DirectionDto directionDto, int id)
+        {
+            try
+            {
+                await agentService.moveAgentAsync(directionDto, id);
+                return Created("new user", directionDto);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }
