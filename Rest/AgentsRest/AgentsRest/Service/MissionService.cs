@@ -90,5 +90,29 @@ namespace AgentsRest.Service
             }
             
         }
+
+        // מחק משימה עם היא לא רלוונטית
+        public async void IfMissionIsRrelevant()
+        {
+            var dbContext = await dbContextFactory.CreateDbContextAsync();
+            // מביא את כל ההצעות למשימה
+            var MissionOffer = dbContext.Missions.Where(x => x.StatusMission == StatusMission.offer).ToList();
+
+            foreach (var mission in MissionOffer) 
+            {
+                // ובודק האם זה עדין רלוונטי
+                TargetModel? target = await dbContext.Targets.FindAsync(mission.TargetId);
+                AgentModel? agent = await dbContext.Agents.FindAsync(mission.AgentID);
+
+                var distance = DistanceCalculation(agent.x, agent.y, target.x, target.y);
+                if (distance > 200)
+                {
+                    dbContext.Remove(mission);
+                    await dbContext.SaveChangesAsync();
+                }
+            }
+        }
+
+
     }
 }

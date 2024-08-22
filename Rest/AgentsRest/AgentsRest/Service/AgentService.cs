@@ -73,6 +73,7 @@ namespace AgentsRest.Service
             agentModel.y += y;
             await dbContext.SaveChangesAsync();
             missionService.CreateMissionByAgent(agentModel);
+            missionService.IfMissionIsRrelevant();
             return agentModel;
 
         }

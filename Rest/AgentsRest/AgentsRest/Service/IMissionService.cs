@@ -6,5 +6,7 @@ namespace AgentsRest.Service
     {
         void CreateMissionByAgent(AgentModel agentModel);
         void CreateMissionByTarget(TargetModel targetModel);
+        void IfMissionIsRrelevant();
+        
     }
 }
