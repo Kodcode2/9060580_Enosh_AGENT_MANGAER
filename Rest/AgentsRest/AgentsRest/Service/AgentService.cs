@@ -73,9 +73,6 @@ namespace AgentsRest.Service
             await dbContext.SaveChangesAsync();
             return agentModel;
 
-
-
-
         }
     }
 }

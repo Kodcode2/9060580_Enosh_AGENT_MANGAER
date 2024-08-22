@@ -24,6 +24,7 @@ namespace AgentsRest
 
 
             builder.Services.AddScoped<IAgentService, AgentService>();
+            builder.Services.AddScoped<ITargetService, TargetService>();
 
             builder.Services.AddHttpClient();
 
