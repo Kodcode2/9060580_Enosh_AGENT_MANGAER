@@ -40,6 +40,11 @@ namespace AgentsRest.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("getAll")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> GetAll() =>
+            Ok(await missionService.GetAllAsync());
 
     }
 }

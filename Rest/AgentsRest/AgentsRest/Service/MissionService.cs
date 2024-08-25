@@ -161,10 +161,10 @@ namespace AgentsRest.Service
             MissionModel? mission = await dbContext.Missions.FindAsync(id);
 
             AgentModel? agent = await dbContext.Agents.FindAsync(mission.AgentID);
-            var agentInMission =  dbContext.Missions.Where(x => x.AgentID == agent.Id && x.StatusMission == StatusMission.assignToAMission).ToList();
+            var agentInMission = dbContext.Missions.Where(x => x.AgentID == agent.Id && x.StatusMission == StatusMission.assignToAMission).ToList();
             if (!agentInMission.IsNullOrEmpty()) { throw new Exception($"The agent on the id {id} is already in action"); }
             var tergetInmission = dbContext.Missions.Where(x => x.TargetId == mission.TargetId && x.StatusMission == StatusMission.assignToAMission).ToList();
-            if(!tergetInmission.IsNullOrEmpty()) { throw new Exception($"The target on the id {id} is already in action"); }
+            if (!tergetInmission.IsNullOrEmpty()) { throw new Exception($"The target on the id {id} is already in action"); }
 
             if (agent == null || mission == null) { throw new Exception($"not find by id {id}"); }
             agent.StatusAgent = StatusAgent.IsActive;
@@ -173,6 +173,36 @@ namespace AgentsRest.Service
             return mission;
 
 
+        }
+
+        public async Task<List<MissionDto>> GetAllAsync()
+        {
+            var dbContext = await dbContextFactory.CreateDbContextAsync();
+            var a = await dbContext.Missions.Include(x => x.Agent).Include(x => x.Target).ToListAsync();
+            List<MissionDto> missions = new List<MissionDto>();
+            foreach (MissionModel mission in a)
+            {
+                missions.Add(new MissionDto()
+                {
+                    ImageA = mission.Agent.Image,
+                    NickName = mission.Agent.NickName,
+                    xA = mission.Agent.x,
+                    yA = mission.Agent.y,
+                    StatusAgent = mission.Agent.StatusAgent,
+                    AgentID = mission.AgentID,
+                    TargetId = mission.TargetId,
+                    TimeRemaining = mission.TimeRemaining,
+                    ActualExecutionTime = mission.ActualExecutionTime,
+                    StatusMission = mission.StatusMission,
+                    ImageT = mission.Target.Image,
+                    Name = mission.Target.Name,
+                    position = mission.Target.position,
+                    xT = mission.Target.x,
+                    yT = mission.Target.y,
+                    StatusTarget = mission.Target.StatusTarget,
+                });
+            }
+            return missions;
         }
     }
 }

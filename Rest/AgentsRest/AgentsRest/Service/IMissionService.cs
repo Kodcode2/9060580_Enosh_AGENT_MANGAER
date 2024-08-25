@@ -1,4 +1,5 @@
-﻿using AgentsRest.Models;
+﻿using AgentsRest.Dto;
+using AgentsRest.Models;
 
 namespace AgentsRest.Service
 {
@@ -13,6 +14,6 @@ namespace AgentsRest.Service
         Task<List<MissionModel>> GetAllMissionAsync();
         Task<MissionModel> CommandmentToMissionAsync(int id);
 
-
+        Task<List<MissionDto>> GetAllAsync();
     }
 }

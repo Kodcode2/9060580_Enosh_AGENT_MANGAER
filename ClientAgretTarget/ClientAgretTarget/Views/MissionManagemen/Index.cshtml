@@ -1,0 +1,125 @@
+﻿@model IEnumerable<ClientAgretTarget.ViewModel.MissionManagementVM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NickName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.xA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.yA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusAgent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AgentID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TargetId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TimeRemaining)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActualExecutionTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusMission)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.xT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.yT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusTarget)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NickName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.xA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.yA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusAgent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgentID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TargetId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeRemaining)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActualExecutionTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusMission)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.xT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.yT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusTarget)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
