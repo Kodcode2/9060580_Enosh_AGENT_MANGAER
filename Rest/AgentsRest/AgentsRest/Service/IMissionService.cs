@@ -7,11 +7,11 @@ namespace AgentsRest.Service
         void CreateMissionByAgentAsync(AgentModel agentModel);
         void CreateMissionByTargetAsync(TargetModel targetModel);
         void IfMissionIsRrelevantAsync();
-        Task<MissionModel> assignToAMissionAsync(int id);
+        
         Task AgentsPursuitAsync();
-        void ChangeAgentPosition(AgentModel agent, TargetModel target, MissionModel mission);
+       
         Task<List<MissionModel>> GetAllMissionAsync();
-        void CommandmentToMissionAsync(int id);
+        Task<MissionModel> CommandmentToMissionAsync(int id);
 
 
     }

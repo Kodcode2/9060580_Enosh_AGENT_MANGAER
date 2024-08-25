@@ -24,38 +24,26 @@ namespace AgentsRest.Service
             var missions = dbContext.Missions.Where(x => x.StatusMission == StatusMission.assignToAMission).ToList();
             foreach (var mission in missions)
             {
-                TargetModel? targetInMission = await dbContext.Targets.FindAsync(mission.TargetId);
-                AgentModel? agentInMisision = await dbContext.Agents.FindAsync(mission.AgentID);
-                if (targetInMission != null && agentInMisision != null)
-                    ChangeAgentPosition(agentInMisision, targetInMission, mission);
-            }
-        }
-        // שינוי מקום של סוכן
-        public async void ChangeAgentPosition(AgentModel agent, TargetModel target, MissionModel mission)
-        {
-            var dbContext = await dbContextFactory.CreateDbContextAsync();
-            agent.x = target.x > agent.x ? agent.x + 1 : agent.x;
-            agent.y = target.y > agent.y ? agent.y + 1 : agent.y;
-            agent.x = target.x < agent.x ? agent.x - 1 : agent.x;
-            agent.y = target.y < agent.y ? agent.y - 1 : agent.y;
-            if (agent.x == target.x && agent.y == target.y)
-            {
-                mission.StatusMission = StatusMission.Ended;
-                target.StatusTarget = StatusTarget.Dead;
-                agent.StatusAgent = StatusAgent.IsNnotActive;
-            }
-            await dbContext.SaveChangesAsync();
-        }
+                TargetModel? target = await dbContext.Targets.FindAsync(mission.TargetId);
+                AgentModel? agent = await dbContext.Agents.FindAsync(mission.AgentID);
+                if (target != null && agent != null)
+                {
+                    agent.x = target.x > agent.x ? agent.x + 1 : agent.x;
+                    agent.y = target.y > agent.y ? agent.y + 1 : agent.y;
+                    agent.x = target.x < agent.x ? agent.x - 1 : agent.x;
+                    agent.y = target.y < agent.y ? agent.y - 1 : agent.y;
+                    if (agent.x == target.x && agent.y == target.y)
+                    {
+                        mission.StatusMission = StatusMission.Ended;
+                        target.StatusTarget = StatusTarget.Dead;
+                        agent.StatusAgent = StatusAgent.IsNnotActive;
+                        mission.TimeRemaining = DistanceCalculation(agent.x, agent.y, target.x, target.y) / 5;
+                    }
+                    mission.TimeRemaining = DistanceCalculation(agent.x, agent.y, target.x, target.y) / 5;
+                    await dbContext.SaveChangesAsync();
+                }
 
-        // הפעל משימה
-        public async Task<MissionModel> assignToAMissionAsync(int id)
-        {
-            var dbContext = await dbContextFactory.CreateDbContextAsync();
-            MissionModel? missionModel = dbContext.Missions.Find(id);
-            if (missionModel == null) { throw new Exception($"not find Mission by id {id}"); }
-            missionModel.StatusMission = StatusMission.assignToAMission;
-            await dbContext.SaveChangesAsync();
-            return missionModel;
+            }
         }
 
         // בדיקה האם יש אופיצה למשימה כשסוכן זז
@@ -164,15 +152,23 @@ namespace AgentsRest.Service
             }
         }
         // להפוך משימה למשימה מצוותת
-        public async void CommandmentToMissionAsync(int id)
+        public async Task<MissionModel> CommandmentToMissionAsync(int id)
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
             MissionModel? mission = await dbContext.Missions.FindAsync(id);
+
             AgentModel? agent = await dbContext.Agents.FindAsync(mission.AgentID);
+            var agentInMission =  dbContext.Missions.Where(x => x.AgentID == agent.Id && x.StatusMission == StatusMission.assignToAMission).ToList();
+            if (!agentInMission.IsNullOrEmpty()) { throw new Exception($"The agent on the id {id} is already in action"); }
+            var tergetInmission = dbContext.Missions.Where(x => x.TargetId == mission.TargetId && x.StatusMission == StatusMission.assignToAMission).ToList();
+            if(!tergetInmission.IsNullOrEmpty()) { throw new Exception($"The target on the id {id} is already in action"); }
+
             if (agent == null || mission == null) { throw new Exception($"not find by id {id}"); }
             agent.StatusAgent = StatusAgent.IsActive;
             mission.StatusMission = StatusMission.assignToAMission;
             await dbContext.SaveChangesAsync();
+            return mission;
+
 
         }
     }

@@ -62,18 +62,23 @@ namespace AgentsRest.Service
         // להזיז סוכן
         public async Task<AgentModel> moveAgentAsync(DirectionDto directionDto, int id)
         {
+            
             // מושך את המודל של הסוכן
             var agentModel = await dbContext.Agents.FirstOrDefaultAsync(x => x.Id == id);
             if (agentModel == null) { throw new Exception($"not find Agent by id {id}"); }
-            // מושך הדיקשינרי את הצעדים של הסוכן ובודק האם הכיון קיים
-            var a = _direction.TryGetValue(directionDto.Direction,out var risult);
-            if (!a) { throw new Exception($"The direction '{directionDto.Direction}' is not correct"); }
-            var (x, y) = risult;
-            agentModel.x += x;
-            agentModel.y += y;
-            await dbContext.SaveChangesAsync();
-            missionService.CreateMissionByAgentAsync(agentModel);
-            missionService.IfMissionIsRrelevantAsync();
+            if (agentModel.StatusAgent == StatusAgent.IsNnotActive)
+            {
+                // מושך הדיקשינרי את הצעדים של הסוכן ובודק האם הכיון קיים
+                var a = _direction.TryGetValue(directionDto.direction, out var risult);
+                if (!a) { throw new Exception($"The direction '{directionDto.direction}' is not correct"); }
+                var (x, y) = risult;
+                agentModel.x += x;
+                agentModel.y += y;
+                await dbContext.SaveChangesAsync();
+                missionService.CreateMissionByAgentAsync(agentModel);
+                missionService.IfMissionIsRrelevantAsync();
+               
+            }
             return agentModel;
 
         }

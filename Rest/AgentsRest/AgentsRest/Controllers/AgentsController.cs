@@ -18,8 +18,8 @@ namespace AgentsRest.Controllers
         {
             try
             {
-                await agentService.CreateNewAgentAsync(agentDto);
-                return Created("new user", agentDto);
+                var agentModel = await agentService.CreateNewAgentAsync(agentDto);
+                return Created("new user", new IdDto { Id = agentModel.Id});
             }
             catch (Exception ex)
             {

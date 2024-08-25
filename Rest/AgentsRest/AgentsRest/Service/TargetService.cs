@@ -66,8 +66,8 @@ namespace AgentsRest.Service
             var targetModel = await dbContext.Targets.FirstOrDefaultAsync(x => x.Id == id);
             if (targetModel == null) { throw new Exception($"not find target by id {id}"); }
             // מושך הדיקשינרי את הצעדים של המטרה ובודק האם הכיון קיים
-            var a = _direction.TryGetValue(directionDto.Direction, out var risult);
-            if (!a) { throw new Exception($"The direction '{directionDto.Direction}' is not correct"); }
+            var a = _direction.TryGetValue(directionDto.direction, out var risult);
+            if (!a) { throw new Exception($"The direction '{directionDto.direction}' is not correct"); }
             var (x, y) = risult;
             targetModel.x += x;
             targetModel.y += y;

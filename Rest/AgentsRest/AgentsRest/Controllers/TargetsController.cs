@@ -1,4 +1,5 @@
 ﻿using AgentsRest.Dto;
+using AgentsRest.Models;
 using AgentsRest.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,8 +17,8 @@ namespace AgentsRest.Controllers
         {
             try
             {
-                await targetService.CreateNewTargetAsync(targetDto);
-                return Created("new user", targetDto);
+                var targetModel = await targetService.CreateNewTargetAsync(targetDto);
+                return Created("new user", new IdDto { Id = targetModel.Id });
             }
             catch (Exception ex)
             {
