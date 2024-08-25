@@ -9,28 +9,41 @@ namespace AgentsRest.Service
 {
     public class MissionService(IDbContextFactory<ApplicationDbContext> dbContextFactory) : IMissionService
     {
+        // מחזיר את כל המשימות
+        public async Task<List<MissionModel>> GetAllMissionAsync()
+        {
+            var dbContext = await dbContextFactory.CreateDbContextAsync();
+            return await dbContext.Missions.ToListAsync();
+        }
+
         //מרדף של סוכן אחרי מטרה על ידי איתור סוכנים ומטרות על ידי משימות בפעולה
         public async Task AgentsPursuitAsync()
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
 
             var missions = dbContext.Missions.Where(x => x.StatusMission == StatusMission.assignToAMission).ToList();
-            foreach (var mission in missions) 
+            foreach (var mission in missions)
             {
                 TargetModel? targetInMission = await dbContext.Targets.FindAsync(mission.TargetId);
                 AgentModel? agentInMisision = await dbContext.Agents.FindAsync(mission.AgentID);
                 if (targetInMission != null && agentInMisision != null)
-                ChangeAgentPosition(agentInMisision, targetInMission);
+                    ChangeAgentPosition(agentInMisision, targetInMission, mission);
             }
         }
         // שינוי מקום של סוכן
-        public async void ChangeAgentPosition(AgentModel agent, TargetModel target)
+        public async void ChangeAgentPosition(AgentModel agent, TargetModel target, MissionModel mission)
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
             agent.x = target.x > agent.x ? agent.x + 1 : agent.x;
             agent.y = target.y > agent.y ? agent.y + 1 : agent.y;
             agent.x = target.x < agent.x ? agent.x - 1 : agent.x;
             agent.y = target.y < agent.y ? agent.y - 1 : agent.y;
+            if (agent.x == target.x && agent.y == target.y)
+            {
+                mission.StatusMission = StatusMission.Ended;
+                target.StatusTarget = StatusTarget.Dead;
+                agent.StatusAgent = StatusAgent.IsNnotActive;
+            }
             await dbContext.SaveChangesAsync();
         }
 
@@ -150,7 +163,17 @@ namespace AgentsRest.Service
                 }
             }
         }
+        // להפוך משימה למשימה מצוותת
+        public async void CommandmentToMissionAsync(int id)
+        {
+            var dbContext = await dbContextFactory.CreateDbContextAsync();
+            MissionModel? mission = await dbContext.Missions.FindAsync(id);
+            AgentModel? agent = await dbContext.Agents.FindAsync(mission.AgentID);
+            if (agent == null || mission == null) { throw new Exception($"not find by id {id}"); }
+            agent.StatusAgent = StatusAgent.IsActive;
+            mission.StatusMission = StatusMission.assignToAMission;
+            await dbContext.SaveChangesAsync();
 
-
+        }
     }
 }

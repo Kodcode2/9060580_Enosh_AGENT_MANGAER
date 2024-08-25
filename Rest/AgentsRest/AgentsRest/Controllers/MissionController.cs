@@ -34,5 +34,19 @@ namespace AgentsRest.Controllers
         {
             await missionService.AgentsPursuitAsync();
         }
+
+        [HttpGet("missions")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> GetAllMission() => 
+            Ok(await missionService.GetAllMissionAsync());
+        [HttpPut("missions/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async void UpdateStatusMission(int id)
+        {
+             missionService.CommandmentToMissionAsync(id);
+        }
+
     }
 }
