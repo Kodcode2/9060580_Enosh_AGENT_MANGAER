@@ -1,4 +1,5 @@
 ﻿using AgentsRest.Date;
+using AgentsRest.Dto;
 using AgentsRest.Models;
 using AgentsRest.Utels;
 using Microsoft.EntityFrameworkCore;
@@ -37,8 +38,10 @@ namespace AgentsRest.Service
                         mission.StatusMission = StatusMission.Ended;
                         target.StatusTarget = StatusTarget.Dead;
                         agent.StatusAgent = StatusAgent.IsNnotActive;
-                        mission.TimeRemaining = DistanceCalculation(agent.x, agent.y, target.x, target.y) / 5;
+                        mission.TimeRemaining = 0;
                     }
+                    var IfDirectionInRange = IsInRange1000(agent.x, agent.y);
+                    if (!IfDirectionInRange) { throw new Exception($"Locations out of range of the clipboard"); }
                     mission.TimeRemaining = DistanceCalculation(agent.x, agent.y, target.x, target.y) / 5;
                     await dbContext.SaveChangesAsync();
                 }

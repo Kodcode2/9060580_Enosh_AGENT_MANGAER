@@ -2,6 +2,7 @@
 using AgentsRest.Dto;
 using AgentsRest.Models;
 using Microsoft.EntityFrameworkCore;
+using static AgentsRest.Utels.Calculations;
 
 namespace AgentsRest.Service
 {
@@ -47,6 +48,8 @@ namespace AgentsRest.Service
         // עדכון מקום של מטרה
         public async Task<TargetModel> UpdateLocationTargetAsync(LocationDto locationDto, int id)
         {
+            var IfDirectionInRange = IsInRange1000(locationDto.x,locationDto.y);
+            if (!IfDirectionInRange) { throw new Exception($"Locations out of range of the clipboard"); }
             // מביא את המודל של המטרה בעזרת ה id
             var targetModel = await dbContext.Targets.FirstOrDefaultAsync(x => x.Id == id);
             if (targetModel == null) { throw new Exception($"not find targett by id {id}"); }
@@ -65,10 +68,13 @@ namespace AgentsRest.Service
             // מושך את המודל של המטרה
             var targetModel = await dbContext.Targets.FirstOrDefaultAsync(x => x.Id == id);
             if (targetModel == null) { throw new Exception($"not find target by id {id}"); }
+
             // מושך הדיקשינרי את הצעדים של המטרה ובודק האם הכיון קיים
-            var a = _direction.TryGetValue(directionDto.direction, out var risult);
-            if (!a) { throw new Exception($"The direction '{directionDto.direction}' is not correct"); }
+            var IfDirectionExists = _direction.TryGetValue(directionDto.direction, out var risult);
+            if (!IfDirectionExists) { throw new Exception($"The direction '{directionDto.direction}' is not correct"); }
             var (x, y) = risult;
+            var IfDirectionInRange = IsInRange1000(targetModel.x += x, targetModel.y += y);
+            if (!IfDirectionInRange) { throw new Exception($"Locations out of range of the clipboard"); }
             targetModel.x += x;
             targetModel.y += y;
             await dbContext.SaveChangesAsync();

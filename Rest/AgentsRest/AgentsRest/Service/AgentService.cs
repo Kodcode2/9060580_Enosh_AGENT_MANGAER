@@ -2,6 +2,7 @@
 using AgentsRest.Dto;
 using AgentsRest.Models;
 using Microsoft.EntityFrameworkCore;
+using static AgentsRest.Utels.Calculations;
 
 namespace AgentsRest.Service
 {
@@ -47,6 +48,8 @@ namespace AgentsRest.Service
         // עדכון מקום של הסוכן
         public async Task<AgentModel> UpdateLocationAgentAsync(LocationDto locationDto, int id)
         {
+            var IfDirectionInRange = IsInRange1000(locationDto.x, locationDto.y);
+            if (!IfDirectionInRange) { throw new Exception($"Locations out of range of the clipboard"); }
             // מביא את המודל של הסוכן בעזרת ה id
             var agentModel = await dbContext.Agents.FirstOrDefaultAsync(x => x.Id == id);
             if (agentModel == null) { throw new Exception($"not find Agent by id {id}"); }
@@ -72,6 +75,8 @@ namespace AgentsRest.Service
                 var a = _direction.TryGetValue(directionDto.direction, out var risult);
                 if (!a) { throw new Exception($"The direction '{directionDto.direction}' is not correct"); }
                 var (x, y) = risult;
+                var IfDirectionInRange = IsInRange1000(agentModel.x += x, agentModel.y += y);
+                if (!IfDirectionInRange) { throw new Exception($"Locations out of range of the clipboard"); }
                 agentModel.x += x;
                 agentModel.y += y;
                 await dbContext.SaveChangesAsync();
