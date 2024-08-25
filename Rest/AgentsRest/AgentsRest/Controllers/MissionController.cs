@@ -26,5 +26,13 @@ namespace AgentsRest.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPost("missions/update")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async void AgentsPursuit()
+        {
+            await missionService.AgentsPursuitAsync();
+        }
     }
 }

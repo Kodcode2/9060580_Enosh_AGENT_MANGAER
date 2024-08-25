@@ -9,6 +9,31 @@ namespace AgentsRest.Service
 {
     public class MissionService(IDbContextFactory<ApplicationDbContext> dbContextFactory) : IMissionService
     {
+        //מרדף של סוכן אחרי מטרה על ידי איתור סוכנים ומטרות על ידי משימות בפעולה
+        public async Task AgentsPursuitAsync()
+        {
+            var dbContext = await dbContextFactory.CreateDbContextAsync();
+
+            var missions = dbContext.Missions.Where(x => x.StatusMission == StatusMission.assignToAMission).ToList();
+            foreach (var mission in missions) 
+            {
+                TargetModel? targetInMission = await dbContext.Targets.FindAsync(mission.TargetId);
+                AgentModel? agentInMisision = await dbContext.Agents.FindAsync(mission.AgentID);
+                if (targetInMission != null && agentInMisision != null)
+                ChangeAgentPosition(agentInMisision, targetInMission);
+            }
+        }
+        // שינוי מקום של סוכן
+        public async void ChangeAgentPosition(AgentModel agent, TargetModel target)
+        {
+            var dbContext = await dbContextFactory.CreateDbContextAsync();
+            agent.x = target.x > agent.x ? agent.x + 1 : agent.x;
+            agent.y = target.y > agent.y ? agent.y + 1 : agent.y;
+            agent.x = target.x < agent.x ? agent.x - 1 : agent.x;
+            agent.y = target.y < agent.y ? agent.y - 1 : agent.y;
+            await dbContext.SaveChangesAsync();
+        }
+
         // הפעל משימה
         public async Task<MissionModel> assignToAMissionAsync(int id)
         {
@@ -21,7 +46,7 @@ namespace AgentsRest.Service
         }
 
         // בדיקה האם יש אופיצה למשימה כשסוכן זז
-        public async void CreateMissionByAgentAsync(AgentModel agentModel)
+        public async void CreateMissionByAgentAsync(AgentModel agent)
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
             // יצירת רשימה של מטרות חייים
@@ -30,11 +55,12 @@ namespace AgentsRest.Service
 
             foreach (var target in targetlive)
             {
-                int xA = agentModel.x;
+                int xA = agent.x;
                 int xT = target.x;
-                int yA = agentModel.y;
+                int yA = agent.y;
                 int yT = target.y;
 
+                var ifExistsAMission = dbContext.Missions.Any(x => x.TargetId == target.Id && x.AgentID == agent.Id);
                 // שולח לבדיקה מה המרחק בין המטרה לסוכן
                 var distance = DistanceCalculation(xA, yA, xT, yT);
 
@@ -45,11 +71,11 @@ namespace AgentsRest.Service
                 targetInMission = targetInMission.Where(x => x.StatusMission == StatusMission.assignToAMission).ToList();
 
                 // פה אני בודק האם המטרה נמצאת ברדיוס שאפשר להציע משימה לסוכן ו שהרשימה רייקה שזה אומר שאין משימות פעילות על המטרה שלי
-                if (distance <= 200 && targetInMission.IsNullOrEmpty())
+                if (distance <= 200 && targetInMission.IsNullOrEmpty() && !ifExistsAMission)
                 {
                     MissionModel newModel = new()
                     {
-                        AgentID = agentModel.Id,
+                        AgentID = agent.Id,
                         TargetId = target.Id,
                         TimeRemaining = distance / 5,
                         StatusMission = StatusMission.offer,
@@ -61,36 +87,38 @@ namespace AgentsRest.Service
 
         }
         // בדיקה באמצעות המטרה שזזה האם יש סוכן ברדיוס 
-        public async void CreateMissionByTargetAsync(TargetModel targetModel)
+        public async void CreateMissionByTargetAsync(TargetModel target)
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
             // יצירת רשימה של סוכנים רדומים
             var agentsNotActive = dbContext.Agents.Where(x => x.StatusAgent == StatusAgent.IsNnotActive).ToList();
 
 
-            foreach (var agents in agentsNotActive)
+            foreach (var agent in agentsNotActive)
             {
-                int xT = targetModel.x;
-                int xA = agents.x;
-                int yT = targetModel.y;
-                int yA = agents.y;
+                int xT = target.x;
+                int xA = agent.x;
+                int yT = target.y;
+                int yA = agent.y;
+
+                var ifExistsAMission = dbContext.Missions.Any(x => x.TargetId == target.Id && x.AgentID == agent.Id);
 
                 // שולח לבדיקה מה המרחק בין המטרה לסוכן
                 var distance = DistanceCalculation(xA, yA, xT, yT);
 
                 // מביא את כל המשימות ש הסוכן נמצאת בהם
-                var agentsInMission = dbContext.Missions.Where(x => x.AgentID == agents.Id).ToList();
+                var agentsInMission = dbContext.Missions.Where(x => x.AgentID == agent.Id).ToList();
 
                 // ואז מסנן ומביא רשימה רק עם המשימות הפעילות 
                 agentsInMission = agentsInMission.Where(x => x.StatusMission == StatusMission.assignToAMission).ToList();
 
                 // פה אני בודק האם הסוכן נמצאת ברדיוס שאפשר להציע משימה לסוכן ו שהרשימה רייקה שזה אומר שאין משימות פעילות של הסוכן שלי
-                if (distance <= 200 && agentsInMission.IsNullOrEmpty())
+                if (distance <= 200 && agentsInMission.IsNullOrEmpty() && !ifExistsAMission)
                 {
                     MissionModel newModel = new()
                     {
-                        AgentID = agents.Id,
-                        TargetId = targetModel.Id,
+                        AgentID = agent.Id,
+                        TargetId = target.Id,
                         TimeRemaining = distance / 5,
                         StatusMission = StatusMission.offer,
                     };
