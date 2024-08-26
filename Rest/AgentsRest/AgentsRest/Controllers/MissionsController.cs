@@ -11,12 +11,12 @@ namespace AgentsRest.Controllers
     public class MissionsController(IMissionService missionService) : ControllerBase
     {
         [HttpPost("update")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> AgentsPursuit()
         {
             await missionService.AgentsPursuitAsync();
-            return Ok();
+            return NoContent();
         }
 
         [HttpGet]
@@ -33,7 +33,7 @@ namespace AgentsRest.Controllers
             try
             {
                 MissionModel missionModel = await missionService.CommandmentToMissionAsync(id);
-                return Created("new user", missionModel);
+                return Ok(missionModel);
             }
             catch (Exception ex)
             {

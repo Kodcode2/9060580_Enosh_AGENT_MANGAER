@@ -1,0 +1,48 @@
+﻿@model ClientAgretTarget.ViewModel.GeneralVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>GeneralVM</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SumAgents)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SumAgents)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SumTargets)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SumTargets)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SumMissions)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SumMissions)
+        </dd>
+        <dt class = "col-sm-8">
+            @Html.DisplayNameFor(model => model.AttitudeOfAgentsToGoals)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AttitudeOfAgentsToGoals)
+        </dd>
+        <dt class = "col-sm-8">
+            @Html.DisplayNameFor(model => model.AgentRatioToGoalsThatAllowedStaff)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AgentRatioToGoalsThatAllowedStaff)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

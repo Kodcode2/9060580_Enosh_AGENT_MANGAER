@@ -11,7 +11,7 @@ namespace AgentsRest.Controllers
     public class TargetsController(ITargetService targetService) : ControllerBase
     {
         [HttpPost("targets")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> CreateTarget([FromBody] TargetDto targetDto)
         {
@@ -41,7 +41,7 @@ namespace AgentsRest.Controllers
             try
             {
                 await targetService.UpdateLocationTargetAsync(locationDto, id);
-                return Created("new user", locationDto);
+                return Ok( locationDto);
             }
             catch (Exception ex)
             {
@@ -57,7 +57,7 @@ namespace AgentsRest.Controllers
             try
             {
                 await targetService.moveTargetAsync(directionDto, id);
-                return Created("new user", directionDto);
+                return Ok(directionDto);
             }
             catch (Exception ex)
             {

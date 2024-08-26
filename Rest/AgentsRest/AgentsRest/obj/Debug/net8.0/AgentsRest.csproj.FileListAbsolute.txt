@@ -134,3 +134,5 @@ C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\AgentsRest.pdb
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\AgentsRest.genruntimeconfig.cache
 C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\obj\Debug\net8.0\ref\AgentsRest.dll
+C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\shmue\source\repos\AgetnExam\Rest\AgentsRest\AgentsRest\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,7 +1,10 @@
 
 using AgentsRest.Date;
 using AgentsRest.Service;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace AgentsRest
 {
@@ -26,10 +29,24 @@ namespace AgentsRest
             builder.Services.AddScoped<IAgentService, AgentService>();
             builder.Services.AddScoped<ITargetService, TargetService>();
             builder.Services.AddScoped<IMissionService, MissionService>();
+            builder.Services.AddScoped<IJwtService, JwtService>();
+            builder.Services.AddScoped<ILoginService, LoginService>();
 
             builder.Services.AddHttpClient();
 
-            
+   //         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+   //.AddJwtBearer(options =>
+   //{
+   //    options.TokenValidationParameters = new()
+   //    {
+   //        ValidateIssuer = true,
+   //        ValidateAudience = true,
+   //        ValidateIssuerSigningKey = true,
+   //        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+   //        ValidAudience = builder.Configuration["Jwt:Audience"],
+   //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+   //    };
+   //});
 
             var app = builder.Build();
 

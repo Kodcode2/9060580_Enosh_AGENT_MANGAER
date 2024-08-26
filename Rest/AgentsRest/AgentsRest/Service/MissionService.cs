@@ -47,6 +47,7 @@ namespace AgentsRest.Service
                 }
 
             }
+
         }
 
         // בדיקה האם יש אופיצה למשימה כשסוכן זז
@@ -75,7 +76,7 @@ namespace AgentsRest.Service
                 targetInMission = targetInMission.Where(x => x.StatusMission == StatusMission.assignToAMission).ToList();
 
                 // פה אני בודק האם המטרה נמצאת ברדיוס שאפשר להציע משימה לסוכן ו שהרשימה רייקה שזה אומר שאין משימות פעילות על המטרה שלי
-                if (distance <= 200 && targetInMission.IsNullOrEmpty() && !ifExistsAMission)
+                if (distance <= 200 && targetInMission.Count == 0 && !ifExistsAMission)
                 {
                     MissionModel newModel = new()
                     {
@@ -117,7 +118,7 @@ namespace AgentsRest.Service
                 agentsInMission = agentsInMission.Where(x => x.StatusMission == StatusMission.assignToAMission).ToList();
 
                 // פה אני בודק האם הסוכן נמצאת ברדיוס שאפשר להציע משימה לסוכן ו שהרשימה רייקה שזה אומר שאין משימות פעילות של הסוכן שלי
-                if (distance <= 200 && agentsInMission.IsNullOrEmpty() && !ifExistsAMission)
+                if (distance <= 200 && agentsInMission.Count == 0 && !ifExistsAMission)
                 {
                     MissionModel newModel = new()
                     {
@@ -162,9 +163,9 @@ namespace AgentsRest.Service
 
             AgentModel? agent = await dbContext.Agents.FindAsync(mission.AgentID);
             var agentInMission = dbContext.Missions.Where(x => x.AgentID == agent.Id && x.StatusMission == StatusMission.assignToAMission).ToList();
-            if (!agentInMission.IsNullOrEmpty()) { throw new Exception($"The agent on the id {id} is already in action"); }
+            if (agentInMission.Count != 0) { throw new Exception($"The agent on the id {id} is already in action"); }
             var tergetInmission = dbContext.Missions.Where(x => x.TargetId == mission.TargetId && x.StatusMission == StatusMission.assignToAMission).ToList();
-            if (!tergetInmission.IsNullOrEmpty()) { throw new Exception($"The target on the id {id} is already in action"); }
+            if (tergetInmission.Count != 0) { throw new Exception($"The target on the id {id} is already in action"); }
 
             if (agent == null || mission == null) { throw new Exception($"not find by id {id}"); }
             agent.StatusAgent = StatusAgent.IsActive;
@@ -174,7 +175,7 @@ namespace AgentsRest.Service
 
 
         }
-
+        // לא נצרך לפורוייקט
         public async Task<List<MissionDto>> GetAllAsync()
         {
             var dbContext = await dbContextFactory.CreateDbContextAsync();
@@ -184,6 +185,7 @@ namespace AgentsRest.Service
             {
                 missions.Add(new MissionDto()
                 {
+                    ID = mission.Id,
                     ImageA = mission.Agent.Image,
                     NickName = mission.Agent.NickName,
                     xA = mission.Agent.x,
@@ -194,6 +196,7 @@ namespace AgentsRest.Service
                     TimeRemaining = mission.TimeRemaining,
                     ActualExecutionTime = mission.ActualExecutionTime,
                     StatusMission = mission.StatusMission,
+                    Distance = (float)DistanceCalculation(mission.Agent.x, mission.Agent.y, mission.Target.x, mission.Target.y),
                     ImageT = mission.Target.Image,
                     Name = mission.Target.Name,
                     position = mission.Target.position,

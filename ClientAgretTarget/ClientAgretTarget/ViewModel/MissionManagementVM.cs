@@ -1,9 +1,8 @@
-﻿using ClientAgretTarget.Models;
-
-namespace ClientAgretTarget.ViewModel
+﻿namespace ClientAgretTarget.ViewModel
 {
     public class MissionManagementVM
     {
+        public int ID { get; set; }
         public string ImageA { get; set; }
         public string NickName { get; set; }
         public int xA { get; set; }
@@ -11,11 +10,12 @@ namespace ClientAgretTarget.ViewModel
         public StatusAgent StatusAgent { get; set; }
         public int AgentID { get; set; }
 
-        public AgentModel Agent { get; set; }
+        public AgentVM Agent { get; set; }
         public int TargetId { get; set; }
-        public TargetModel Target { get; set; }
+        public TargetVM Target { get; set; }
         public double TimeRemaining { get; set; }
         public int ActualExecutionTime { get; set; }
+        public float Distance {  get; set; }
 
         public StatusMission StatusMission { get; set; }
         public string ImageT { get; set; }

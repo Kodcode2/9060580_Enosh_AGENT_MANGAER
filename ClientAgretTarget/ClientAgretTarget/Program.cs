@@ -11,10 +11,9 @@ namespace ClientAgretTarget
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddHttpClient();
-
-            builder.Services.AddScoped<IAgentService, AgentService>();
-            builder.Services.AddScoped<ITargetService, TargetService>();
             builder.Services.AddScoped<IMissionService, MissionService>();
+            builder.Services.AddScoped<ITargetService, TargetService>();
+            builder.Services.AddScoped<IAgentService, AgentService>();
             builder.Services.AddScoped<IMissionManagemenService, MissionManagemenService>();
 
             var app = builder.Build();

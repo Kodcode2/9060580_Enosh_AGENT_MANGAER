@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using ClientAgretTarget.Models;
 
-namespace ClientAgretTarget.Models
+namespace ClientAgretTarget.ViewModel
 {
-    public class AgentModel
+    public class AgentVM
     {
         public int Id { get; set; }
         public string Image { get; set; }
@@ -10,8 +11,7 @@ namespace ClientAgretTarget.Models
         public int x { get; set; }
         public int y { get; set; }
         public StatusAgent StatusAgent { get; set; }
-        [NotMapped]
-        public List<MissionModel> Missions { get; set; } = [];
+        
 
 
     }

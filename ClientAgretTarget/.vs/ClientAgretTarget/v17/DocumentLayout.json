@@ -3,64 +3,124 @@
   "WorkspaceRootPath": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\controllers\\missionmanagemencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\controllers\\missionmanagemencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\missionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\missionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\missionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\missionmanagemen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\missionmanagemen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\viewmodel\\missionmanagementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\viewmodel\\missionmanagementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\imissionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\imissionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\targetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\missionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\missionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\utels\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\utels\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\viewmodel\\missionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\models\\missionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\controllers\\missionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\models\\agentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\imissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\controllers\\targetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\controllers\\missionmanagemencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\controllers\\missionmanagemencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\controllers\\generalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\controllers\\generalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\missions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\missions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\missionmanagemen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\missionmanagemen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\missionmanagemen\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\missionmanagemen\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\missions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\missions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\viewmodel\\missionmanagementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\viewmodel\\missionmanagementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\viewmodel\\generalvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\viewmodel\\generalvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\general\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\general\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\imissionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\imissionmanagemenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\targets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\targets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\agents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\agents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\targets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\targets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\itargetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\services\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\viewmodel\\targetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\viewmodel\\targetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\viewmodel\\agentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\viewmodel\\agentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\clientagrettarget.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -73,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|c:\\users\\shmue\\source\\repos\\agetnexam\\clientagrettarget\\clientagrettarget\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0B16B4-0EFF-4272-A794-363EFCFE632E}|ClientAgretTarget\\ClientAgretTarget.csproj|solutionrelative:clientagrettarget\\models\\targetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,148 +153,109 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MissionManagemenController.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "DocumentIndex": 1,
+              "Title": "MissionService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\MissionService.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\MissionService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\MissionService.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Services\\MissionService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA0wAkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:41:38.981Z",
+              "WhenOpened": "2024-08-26T07:41:49.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IMissionService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionService.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\IMissionService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionService.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Services\\IMissionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\AgentService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\AgentService.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Services\\AgentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAUAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:33:18.191Z",
+              "WhenOpened": "2024-08-26T07:10:41.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MissionManagemenService.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\MissionManagemenService.cs",
               "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\MissionManagemenService.cs",
               "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\MissionManagemenService.cs",
               "RelativeToolTip": "ClientAgretTarget\\Services\\MissionManagemenService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwA0AAAAIAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T14:41:16.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MissionService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\MissionService.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\MissionService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\MissionService.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Services\\MissionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:06:13.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MissionManagementVM.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
-              "RelativeToolTip": "ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBkAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:31:01.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
-              "RelativeToolTip": "ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-25T16:51:34.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMissionManagemenService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionManagemenService.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\IMissionManagemenService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionManagemenService.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Services\\IMissionManagemenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:41:06.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "TargetService.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\TargetService.cs",
               "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\TargetService.cs",
               "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\TargetService.cs",
               "RelativeToolTip": "ClientAgretTarget\\Services\\TargetService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA/AAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:05:38.348Z",
+              "WhenOpened": "2024-08-26T07:29:20.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AgentService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\AgentService.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\AgentService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\AgentService.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Services\\AgentService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAIwAoAAAAIAAAA",
+              "DocumentIndex": 5,
+              "Title": "MissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\MissionsController.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Controllers\\MissionsController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\MissionsController.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Controllers\\MissionsController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:05:06.085Z",
+              "WhenOpened": "2024-08-26T07:45:08.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Calculations.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Utels\\Calculations.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Utels\\Calculations.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Utels\\Calculations.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Utels\\Calculations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
+              "DocumentIndex": 7,
+              "Title": "AgentsController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\AgentsController.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Controllers\\AgentsController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\AgentsController.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Controllers\\AgentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T16:12:09.686Z",
+              "WhenOpened": "2024-08-26T07:20:37.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMissionService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionService.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\IMissionService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionService.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Services\\IMissionService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:41:37.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MissionModel.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Models\\MissionModel.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Models\\MissionModel.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Models\\MissionModel.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Models\\MissionModel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBcAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "MissionVM.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\MissionVM.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\ViewModel\\MissionVM.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\MissionVM.cs",
+              "RelativeToolTip": "ClientAgretTarget\\ViewModel\\MissionVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:24:36.839Z",
               "EditorCaption": ""
@@ -246,71 +263,304 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AgentModel.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Models\\AgentModel.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Models\\AgentModel.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Models\\AgentModel.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Models\\AgentModel.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Title": "GeneralController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\GeneralController.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Controllers\\GeneralController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\GeneralController.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Controllers\\GeneralController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:24:00.384Z",
+              "WhenOpened": "2024-08-26T08:52:07.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TargetsController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\TargetsController.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Controllers\\TargetsController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\TargetsController.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Controllers\\TargetsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAASwB8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:33:43.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:24:54.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MissionManagemenController.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Controllers\\MissionManagemenController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwBUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:41:38.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Missions\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\Missions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Missions\\Index.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\Missions\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T07:47:29.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\MissionManagemen\\Index.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAewFYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:10:39.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\MissionManagemen\\Details.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\MissionManagemen\\Details.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\MissionManagemen\\Details.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\MissionManagemen\\Details.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAACbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:33:37.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Missions\\Details.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\Missions\\Details.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Missions\\Details.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\Missions\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T07:48:53.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MissionManagementVM.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
+              "RelativeToolTip": "ClientAgretTarget\\ViewModel\\MissionManagementVM.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:31:01.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GeneralVM.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\GeneralVM.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\ViewModel\\GeneralVM.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\GeneralVM.cs",
+              "RelativeToolTip": "ClientAgretTarget\\ViewModel\\GeneralVM.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:00:56.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwCIAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T06:49:04.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\General\\Details.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\General\\Details.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\General\\Details.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\General\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T08:56:17.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAgentService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IAgentService.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\IAgentService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IAgentService.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Services\\IAgentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:10:08.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMissionManagemenService.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionManagemenService.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\IMissionManagemenService.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IMissionManagemenService.cs",
+              "RelativeToolTip": "ClientAgretTarget\\Services\\IMissionManagemenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:41:06.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Program.cs",
               "RelativeDocumentMoniker": "ClientAgretTarget\\Program.cs",
               "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Program.cs",
               "RelativeToolTip": "ClientAgretTarget\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAswBEAAABcAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswA0AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:38:17.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Agents\\Details.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\Agents\\Details.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Agents\\Details.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\Agents\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBYAAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T07:25:27.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ITargetService.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\ITargetService.cs",
               "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\ITargetService.cs",
               "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\ITargetService.cs",
               "RelativeToolTip": "ClientAgretTarget\\Services\\ITargetService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:06:04.647Z",
+              "WhenOpened": "2024-08-26T07:29:08.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAgentService.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IAgentService.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Services\\IAgentService.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Services\\IAgentService.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Services\\IAgentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T14:04:55.943Z",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Targets\\Details.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\Targets\\Details.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Targets\\Details.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\Targets\\Details.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T07:37:25.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ClientAgretTarget",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Targets\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\Targets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Targets\\Index.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\Targets\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T07:36:03.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TargetVM.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\TargetVM.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\ViewModel\\TargetVM.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\TargetVM.cs",
+              "RelativeToolTip": "ClientAgretTarget\\ViewModel\\TargetVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:25:10.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Agents\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\Views\\Agents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Views\\Agents\\Index.cshtml",
+              "RelativeToolTip": "ClientAgretTarget\\Views\\Agents\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T07:24:04.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AgentVM.cs",
+              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\AgentVM.cs",
+              "RelativeDocumentMoniker": "ClientAgretTarget\\ViewModel\\AgentVM.cs",
+              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ViewModel\\AgentVM.cs",
+              "RelativeToolTip": "ClientAgretTarget\\ViewModel\\AgentVM.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:24:00.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClientAgretTarget.csproj",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ClientAgretTarget.csproj",
               "RelativeDocumentMoniker": "ClientAgretTarget\\ClientAgretTarget.csproj",
               "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\ClientAgretTarget.csproj",
               "RelativeToolTip": "ClientAgretTarget\\ClientAgretTarget.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-25T14:03:32.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T14:03:32.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\appsettings.json",
               "RelativeDocumentMoniker": "ClientAgretTarget\\appsettings.json",
@@ -318,12 +568,11 @@
               "RelativeToolTip": "ClientAgretTarget\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-25T13:37:43.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T13:37:43.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ClientAgretTarget\\Models\\ErrorViewModel.cs",
@@ -331,21 +580,7 @@
               "RelativeToolTip": "ClientAgretTarget\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:25:54.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TargetModel.cs",
-              "DocumentMoniker": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Models\\TargetModel.cs",
-              "RelativeDocumentMoniker": "ClientAgretTarget\\Models\\TargetModel.cs",
-              "ToolTip": "C:\\Users\\shmue\\source\\repos\\AgetnExam\\ClientAgretTarget\\ClientAgretTarget\\Models\\TargetModel.cs",
-              "RelativeToolTip": "ClientAgretTarget\\Models\\TargetModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:25:10.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T13:25:54.614Z"
             }
           ]
         },

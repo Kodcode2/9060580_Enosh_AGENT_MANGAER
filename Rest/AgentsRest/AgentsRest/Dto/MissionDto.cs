@@ -5,6 +5,7 @@ namespace AgentsRest.Dto
 {
     public class MissionDto
     {
+        public int ID { get; set; }
         public string? ImageA { get; set; }
         public string? NickName { get; set; }
         public int xA { get; set; }
@@ -17,6 +18,7 @@ namespace AgentsRest.Dto
        
         public double TimeRemaining { get; set; }
         public int ActualExecutionTime { get; set; }
+        public float Distance { get; set; }
 
         public StatusMission StatusMission { get; set; }
         public string? ImageT { get; set; }

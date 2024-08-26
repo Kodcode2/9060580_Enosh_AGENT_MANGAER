@@ -1,9 +1,11 @@
-﻿using ClientAgretTarget.Models;
+﻿using ClientAgretTarget.ViewModel;
 
 namespace ClientAgretTarget.Services
 {
     public interface IAgentService
     {
-        Task<List<AgentModel>> GetAllAgents();
+        Task<List<AgentVM>> GetAll();
+        Task<AgentVM> Details(int id);
+        
     }
 }

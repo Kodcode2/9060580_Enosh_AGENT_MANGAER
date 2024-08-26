@@ -12,7 +12,7 @@ namespace AgentsRest.Controllers
     public class AgentsController(IAgentService agentService) : ControllerBase
     {
         [HttpPost("agents")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> Create([FromBody] AgentDto agentDto)
         {
@@ -42,7 +42,7 @@ namespace AgentsRest.Controllers
             try
             {
                 await agentService.UpdateLocationAgentAsync(locationDto , id);
-                return Created("new user", locationDto);
+                return Ok(locationDto);
             }
             catch (Exception ex)
             {
@@ -58,7 +58,7 @@ namespace AgentsRest.Controllers
             try
             {
                 await agentService.moveAgentAsync(directionDto, id);
-                return Created("new user", directionDto);
+                return Ok(directionDto);
             }
             catch (Exception ex)
             {
