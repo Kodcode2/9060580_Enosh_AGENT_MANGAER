@@ -14,6 +14,7 @@ namespace ClientAgretTarget
             builder.Services.AddScoped<IMissionService, MissionService>();
             builder.Services.AddScoped<ITargetService, TargetService>();
             builder.Services.AddScoped<IAgentService, AgentService>();
+            builder.Services.AddScoped<IMtrizaService , MtrizaService>();
             builder.Services.AddScoped<IMissionManagemenService, MissionManagemenService>();
 
             var app = builder.Build();
